@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.137 sec <<< FAILURE!
+ILTS(ILTS REVAMP PART03)  Time elapsed: 11.779 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //button[text()='REGISTER NOW']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at PageObject.LoginPage.registernow(LoginPage.java:769)
+	at StepDefinitions.Login.Clk_on_ILTS_Card_and_Clk_on_RegisterNow(Login.java:557)
+	at ✽.Clk on ILTS Card and Clk on RegisterNow and clk on clse(file:///C:/Users/SmartGig/eclipse-workspace/sample/src/test/resources/Features/ILTS%20REVAMP%20PART03.feature:9)
+

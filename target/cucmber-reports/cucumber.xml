@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.843">
+    <testcase classname="ILTS REVAMP PART03" name="ILTS" time="11.675">
+        <failure message="Unable to find element with locator By.xpath: //button[text()='REGISTER NOW']&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.8.0', revision: '267030adea'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given User in Student login page............................................passed
+And User enters Phnenmbr and Clk on login with Pswrd"8801929127"............passed
+And User enters Pswrd and Clk on loginbtn"Pass123"..........................passed
+Then User Navigate to dashboard and Clk on TestsBtn.........................passed
+Then Clk on ILTS Card and Clk on RegisterNow and clk on clse................failed
+Then Clk on AttemptNow Btn User navigate to Test Taking Instructions........skipped
+Then User navigate to test paper anser the question and save................skipped
+Then Clk on SubmitBtn,FinishTstBtn,MediumBtn,FinalSubmitBtn,CloseBtn........skipped
+Then User navigate to Genarting Detailed Report then Verify Test Name and Date.skipped
+Then Verify Your report will be generated in time...........................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //button[text()='REGISTER NOW']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at PageObject.LoginPage.registernow(LoginPage.java:769)
+	at StepDefinitions.Login.Clk_on_ILTS_Card_and_Clk_on_RegisterNow(Login.java:557)
+	at ✽.Clk on ILTS Card and Clk on RegisterNow and clk on clse(file:///C:/Users/SmartGig/eclipse-workspace/sample/src/test/resources/Features/ILTS%20REVAMP%20PART03.feature:9)
+]]></failure>
+    </testcase>
+</testsuite>
