@@ -86,7 +86,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumberReporting</td>
         <td>1</td>
-      <td>23 Feb 2023, 11:42</td>
+      <td>26 Feb 2023, 13:38</td>
     </tr>
   </tbody>
 </table>
@@ -108,9 +108,8 @@ $(document).ready(function() {
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <div class="message">
-        <pre>net.masterthought.cucumber.ValidationException: File 'C:\Users\SmartGig\eclipse-workspace\sample\target\cucumber-reports\cucumber.json' is not proper Cucumber report!
-	at net.masterthought.cucumber.ReportParser.parseForFeature(ReportParser.java:104)
-	at net.masterthought.cucumber.ReportParser.parseJsonFiles(ReportParser.java:72)
+        <pre>net.masterthought.cucumber.ValidationException: None report file was added!
+	at net.masterthought.cucumber.ReportParser.parseJsonFiles(ReportParser.java:61)
 	at net.masterthought.cucumber.ReportBuilder.generateReports(ReportBuilder.java:97)
 	at net.masterthought.cucumber.CucumberReportGeneratorMojo.execute(CucumberReportGeneratorMojo.java:222)
 	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
@@ -137,20 +136,11 @@ $(document).ready(function() {
 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
-Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: No content to map due to end-of-input
- at [Source: (InputStreamReader); line: 1, column: 0]
-	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59)
-	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:4688)
-	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4586)
-	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3561)
-	at net.masterthought.cucumber.ReportParser.parseForFeature(ReportParser.java:93)
-	... 27 more
 </pre>
       </div>
       <div>Trying to generate report from following files. Make sure they are valid cucumber report files:</div>
       <div class="error-files">
         <pre>
- C:\Users\SmartGig\eclipse-workspace\sample\target\cucumber-reports\cucumber.json
         </pre>
       </div>
     </div>
