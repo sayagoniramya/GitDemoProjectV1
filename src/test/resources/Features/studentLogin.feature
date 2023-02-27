@@ -1,21 +1,25 @@
 Feature: Regression Testing
  
+  @Sanity
   Scenario: Login with valid credentials
   Given User in Student login page
   And User enters Phnenmbr and Clk on login with Pswrd"8333826402"
   And User enters Pswrd and Clk on loginbtn"Pass123"
   
+  @Sanity
   Scenario: Login with Otp
   Given User in Student login page
   And User enters Phnenmbr and Clk on GetOTP"8333826402"
   And User enters Otp and Clk on Verify OTP btn
   
+  @Sanity
   Scenario: Login and Logout
   Given User in Student login page
   And User enters Phnenmbr and Clk on login with Pswrd"8333826402"
   And User enters Pswrd and Clk on loginbtn"Pass123"
   And Clk on Prfle Btn and Clk on Logout
   
+  @Sanity
   Scenario: Change Pswrd
   Given User in Student login page
   And User enters Phnenmbr and Clk on login with Pswrd"8333826402"
@@ -25,6 +29,7 @@ Feature: Regression Testing
   Then Enter NewPswrd and confirm NewPswrd"Pass123"
   Then Clk on ResetPswrd then Clk on Pswrd Update Pop
   
+  @Sanity
   Scenario: Update Prfle
   Given User in Student login page
   And User enters Phnenmbr and Clk on login with Pswrd"8333826402"
@@ -72,6 +77,7 @@ Feature: Regression Testing
   Then Clk on SaveBtn then Clk on close
   
   
+  @Sanity
   Scenario: Update Grade 11
   Given User in Student login page
   And User enters Phnenmbr and Clk on login with Pswrd"8333826402"
@@ -119,6 +125,7 @@ Feature: Regression Testing
   
  
   
+  @Sanity
   Scenario:Mocktest
   Given User in Student login page
   And User enters Phnenmbr and Clk on login with Pswrd"9059759748"

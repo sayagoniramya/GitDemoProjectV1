@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="142.111">
+    <testcase classname="Regression Testing" name="Login with valid credentials" time="4.831">
+        <system-out><![CDATA[Given User in Student login page............................................passed
+And User enters Phnenmbr and Clk on login with Pswrd"8333826402"............passed
+And User enters Pswrd and Clk on loginbtn"Pass123"..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Regression Testing" name="Login with Otp" time="4.815">
+        <system-out><![CDATA[Given User in Student login page............................................passed
+And User enters Phnenmbr and Clk on GetOTP"8333826402"......................passed
+And User enters Otp and Clk on Verify OTP btn...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Regression Testing" name="Login and Logout" time="7.93">
+        <system-out><![CDATA[Given User in Student login page............................................passed
+And User enters Phnenmbr and Clk on login with Pswrd"8333826402"............passed
+And User enters Pswrd and Clk on loginbtn"Pass123"..........................passed
+And Clk on Prfle Btn and Clk on Logout......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Regression Testing" name="Change Pswrd" time="11.445">
+        <system-out><![CDATA[Given User in Student login page............................................passed
+And User enters Phnenmbr and Clk on login with Pswrd"8333826402"............passed
+And User enters Pswrd and Clk on loginbtn"Pass123"..........................passed
+And Clk on Prfle Btn and Clk on My Prfle....................................passed
+And Clk on Change Pswrd enter CurrentPswrd"Pass123".........................passed
+Then Enter NewPswrd and confirm NewPswrd"Pass123"...........................passed
+Then Clk on ResetPswrd then Clk on Pswrd Update Pop.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Regression Testing" name="Update Prfle" time="70.505">
+        <system-out><![CDATA[Given User in Student login page............................................passed
+And User enters Phnenmbr and Clk on login with Pswrd"8333826402"............passed
+And User enters Pswrd and Clk on loginbtn"Pass123"..........................passed
+And Clk on Prfle Btn and Clk on My Prfle....................................passed
+And Clk on Edt Slt Grade1 Board Cbse and Save...............................passed
+And Slt TrgtExm Apt and Save and Vrfy Trgt Updtd pop........................passed
+And Clk on Edt Slt Grade2 Board Cbse and Save...............................passed
+And Slt TrgtExm Apt and Save and Vrfy Trgt Updtd pop........................passed
+And Clk on Edt Slt Grade3 Board Cbse and Save...............................passed
+And Slt TrgtExm Apt and Save and Vrfy Trgt Updtd pop........................passed
+And Clk on Edt Slt Grade4 Board Cbse and Save...............................passed
+And Slt TrgtExm Apt and Save and Vrfy Trgt Updtd pop........................passed
+And Clk on Edt Slt Grade5 Board Cbse and Save...............................passed
+And Slt TrgtExm Apt and Save and Vrfy Trgt Updtd pop........................passed
+And Clk on Edt Slt Grade6 Board Cbse and Save...............................passed
+And Slt TrgtExm Cbse and Found and Sve Vrfy Trgt Updtd......................passed
+And Clk on Edt Slt Grade7 Board Cbse and Save...............................passed
+And Slt TrgtExm Cbse and Found and Sve Vrfy Trgt Updtd......................passed
+And Clk on Edt Slt Grade8 Board Cbse and Save...............................passed
+And Slt TrgtExm Cbse and Found and Sve Vrfy Trgt Updtd......................passed
+And Clk on Edt Slt Grade9 Board Cbse and Save...............................passed
+And Slt TrgtExm Cbse Neet Jee and Sve Vrfy Trgt Updtd.......................passed
+And Clk on Edt Slt Grade10 Board Cbse and Save..............................passed
+And Slt TrgtExm Cbse Neet Jee and Sve Vrfy Trgt Updtd.......................passed
+And Clk on Edt Slt Grade11 SltPCM Board Tlngna and Save.....................passed
+And Slt TrgtExm Cbse Neet Jee JeeAdv and Sve Vrfy Trgt Updtd................passed
+And Clk on Edt Slt Grade12 SltPCB Board Tlngna and Save.....................passed
+And Slt TrgtExm Cbse Neet Jee JeeAdv CUET and Save Vrfy Trgt Updtd..........passed
+And Clk on Edt Slt Grade13 SltPCMB Board Tlngna and Save....................passed
+And Slt TrgtExm Neet Jee JeeAdv and Save and Vrfy Trgt Updtd................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Regression Testing" name="Update Grade 11" time="11.693">
+        <system-out><![CDATA[Given User in Student login page............................................passed
+And User enters Phnenmbr and Clk on login with Pswrd"8333826402"............passed
+And User enters Pswrd and Clk on loginbtn"Pass123"..........................passed
+And Clk on Prfle Btn and Clk on My Prfle....................................passed
+And Clk on Edt Slt Grade11 SltPCM Board Tlngna and Save.....................passed
+And Slt TrgtExm Cbse Neet Jee JeeAdv and Sve Vrfy Trgt Updtd................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Regression Testing" name="Mocktest" time="30.521">
+        <failure message="element click intercepted: Element &lt;button _ngcontent-kpy-c85=&quot;&quot; type=&quot;button&quot; class=&quot;assessment_pt-10 btn-block btn-link resend-otp&quot;&gt;...&lt;/button&gt; is not clickable at point (758, 431). Other element would receive the click: &lt;mat-dialog-content _ngcontent-kpy-c85=&quot;&quot; class=&quot;mat-dialog-content account-box&quot; style=&quot;overflow: hidden; scroll-behavior: unset;&quot;&gt;...&lt;/mat-dialog-content&gt;&#10;  (Session info: chrome=110.0.5481.105)&#10;Build info: version: '4.8.0', revision: '267030adea'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [d3cbd8d941b99fd0435b5c591860b352, clickElement {id=a9859334-1b6d-41f8-9d12-9bb1b7e08571}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SmartGig\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63469}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63469/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (d3cbd8d941b99fd0435b5c591860b352)] -&gt; xpath: //mat-dialog-container//button[text()='CLOSE']]&#10;Session ID: d3cbd8d941b99fd0435b5c591860b352" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given User in Student login page............................................passed
+And User enters Phnenmbr and Clk on login with Pswrd"9059759748"............passed
+And User enters Pswrd and Clk on loginbtn"Pass123"..........................passed
+Then User Navigate to dashboard and Clk on TestsBtn.........................passed
+Then Clk on Mcts Card and Clk on AttemptNow.................................passed
+Then User navigate to Test Taking Instructions and Clk on BeginTest.........passed
+Then Clk on SubmitBtn,FinishTstBtn,MediumBtn,FinalSubmitBtn,CloseBtn........failed
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-kpy-c85="" type="button" class="assessment_pt-10 btn-block btn-link resend-otp">...</button> is not clickable at point (758, 431). Other element would receive the click: <mat-dialog-content _ngcontent-kpy-c85="" class="mat-dialog-content account-box" style="overflow: hidden; scroll-behavior: unset;">...</mat-dialog-content>
+  (Session info: chrome=110.0.5481.105)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3cbd8d941b99fd0435b5c591860b352, clickElement {id=a9859334-1b6d-41f8-9d12-9bb1b7e08571}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SmartGig\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63469}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63469/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d3cbd8d941b99fd0435b5c591860b352)] -> xpath: //mat-dialog-container//button[text()='CLOSE']]
+Session ID: d3cbd8d941b99fd0435b5c591860b352
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at jdk.internal.reflect.GeneratedMethodAccessor89.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+	at PageObject.LoginPage.CloseBtn(LoginPage.java:732)
+	at StepDefinitions.Login.Click_on_SubmitBtn(Login.java:456)
+	at ✽.Clk on SubmitBtn,FinishTstBtn,MediumBtn,FinalSubmitBtn,CloseBtn(file:///C:/Users/SmartGig/eclipse-workspace/BDD_IUF_UI_Testing/src/test/resources/Features/studentLogin.feature:136)
+]]></failure>
+    </testcase>
+</testsuite>

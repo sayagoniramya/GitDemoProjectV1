@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 146.409 s <<< FAILURE! - in StepDefinitions.TestRunner
+Mocktest(Regression Testing)  Time elapsed: 30.552 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-kpy-c85="" type="button" class="assessment_pt-10 btn-block btn-link resend-otp">...</button> is not clickable at point (758, 431). Other element would receive the click: <mat-dialog-content _ngcontent-kpy-c85="" class="mat-dialog-content account-box" style="overflow: hidden; scroll-behavior: unset;">...</mat-dialog-content>
+  (Session info: chrome=110.0.5481.105)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3cbd8d941b99fd0435b5c591860b352, clickElement {id=a9859334-1b6d-41f8-9d12-9bb1b7e08571}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.105, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\SmartGig\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63469}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63469/devtoo..., se:cdpVersion: 110.0.5481.105, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d3cbd8d941b99fd0435b5c591860b352)] -> xpath: //mat-dialog-container//button[text()='CLOSE']]
+Session ID: d3cbd8d941b99fd0435b5c591860b352
+

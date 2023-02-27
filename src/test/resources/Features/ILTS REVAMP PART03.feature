@@ -1,4 +1,4 @@
-@Sanity
+
 Feature: ILTS REVAMP PART03
 
 Scenario:ILTS
